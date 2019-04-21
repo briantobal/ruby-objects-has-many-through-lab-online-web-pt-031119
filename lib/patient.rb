@@ -20,8 +20,9 @@ def appointments
 end 
 end     #def 
 
-def doctors
-  Appointment.all.collect {|doctor| doctor.}
-  end     #def 
+  def doctors
+    appointments.map(&:doctor)
+  end
+
 
 end 
