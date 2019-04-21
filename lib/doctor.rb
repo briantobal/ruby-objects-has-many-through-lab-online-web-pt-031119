@@ -8,6 +8,7 @@ def initialize(name)
   end     #def 
 
 def self.all 
+  @@all 
   end     #def 
   
 end 
