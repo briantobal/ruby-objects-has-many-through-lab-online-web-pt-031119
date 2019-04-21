@@ -15,4 +15,8 @@ def new_appointment(doctor, date)
   Appointment.new(doctor, self, date)
   end     #def 
 
+def appointments 
+  Appointment.all.collect {|day| day.name == self}
+  end     #def 
+
 end 
