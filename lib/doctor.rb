@@ -14,5 +14,10 @@ def self.all
 def new_appointment (patient, date)
   Appointment.new(patient, self, date)
   end     #def   
-  
+
+def appointments 
+  appointments.all.collect {||}
+  end     #def 
+
+
 end 
