@@ -17,6 +17,11 @@ def new_appointment(doctor, date)
 
 def appointments 
   Appointment.all.collect {|day| day.name == self}
+end 
+end     #def 
+
+def doctors
+  Appointment.all.collect {|doctor| doctor.}
   end     #def 
 
 end 
