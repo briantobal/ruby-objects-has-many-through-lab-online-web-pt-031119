@@ -13,7 +13,4 @@ class Appointment
     @@all << self 
   end     #def 
   
-  
-  
-  
 end 
