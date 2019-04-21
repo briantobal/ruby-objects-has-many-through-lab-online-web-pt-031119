@@ -6,7 +6,9 @@ class Appointment
     @@all 
   end     #def 
   
-  def initialize(date, patie)     
+  def initialize(date, patient, doctor) 
+    
+    
   end     #def 
   
   
